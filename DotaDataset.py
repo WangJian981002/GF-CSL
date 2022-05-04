@@ -68,7 +68,7 @@ class DotaSetv1(Dataset):
 
 
     def convert_poly2cxcyhw(self,ann):
-        #h 代表长边， w代表短边
+        #h ->long side， w ->short side
         converted_ann = np.zeros((0,6),dtype=np.float32) #cx,cy,h,w,theta,class
         for i in range(len(ann)):
             p1,p2,p3,p4 =  ann[i]['poly']
@@ -301,23 +301,3 @@ if __name__ == "__main__":
     img = img[:, :, ::-1].astype(np.uint8)
     ann = trainset.convert_cxcyhw2poly(label)
     trainset.display(img, ann)
-    
-
-
-
-
-
-
-    
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
