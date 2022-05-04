@@ -28,3 +28,10 @@ pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7
 ```
 
 4. Install DOTA_devkit
+
+```
+sudo apt-get install swig
+cd 
+swig -c++ -python polyiou.i
+python setup.py build_ext --inplace
+```
