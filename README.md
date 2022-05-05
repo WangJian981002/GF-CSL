@@ -7,3 +7,22 @@ With the increasing availability of aerial data, object detection in aerial imag
 Please refer to [install.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/INSTALL.md) for installation and dataset preparation.
 
 ## Getting Started
+
+## Model Zoo
+Pretrained weights on DOTA
+
+Model | Backbone | MS | Training size | Training scales | mAP | Download 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+GF-CSL | ResNet50 | ✓ | 1024×1024 | [0.5, 1.0] | 77.54% |
+GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0] | 78.34% |
+GF-CSL | ResNet152 | ✓ | 1024×1024 | [0.5, 1.0] | 78.12% |
+GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0, 1.5] | 79.94% |
+
+Pretrained weights on HRSC2016 and UCAS-AOD
+
+Dataset | Backbone | MS | Training size | mAP07 | mAP12 | Download 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+HRSC2016 | ResNet50 | ✓ | 640×640 | 90.33% | 97.38% |
+HRSC2016 | ResNet101 | ✓ | 800×800 | 90.53% | 97.90% |
+UCAS-AOD | ResNet50 | ✓ | 640×640 | 89.61% | 96.42% |
+UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
