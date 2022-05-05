@@ -35,3 +35,34 @@ cd DOTA_devkit
 swig -c++ -python polyiou.i
 python setup.py build_ext --inplace
 ```
+#### DATASETS PREPARATION
+For DOTA datasets, please refer [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) to crop the original images into patches. e.g. 1024×1024 pixels.
+
+Please organize the datasets in the following format. Please note that the test set of DOTA does not provide annotations, so you can place the corresponding empty files in the test_split/labelTxt path.
+ 
+```
+GF-CSL
+├── DOTA_devkit
+│   ├── datasets
+│   │   ├── DOTA
+│   │   │   ├── trainval_split
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │   │── test_split
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │── HRSC2016
+│   │   │   │── train
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │   │── test
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │── UCAS_AOD
+│   │   │   │── train
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │   │── test
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+```
