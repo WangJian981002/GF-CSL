@@ -13,7 +13,7 @@ Pretrained weights on DOTA
 
 Model | Backbone | MS | Training size | Training scales | mAP | Download 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GF-CSL | ResNet50 | ✓ | 1024×1024 | [0.5, 1.0] | 77.54% |
+GF-CSL | ResNet50 | ✓ | 1024×1024 | [0.5, 1.0] | 77.54% | [model](https://drive.google.com/file/d/17Z-0i-ifP_fY58CfoBr8LGBsfLLklm1l/view?usp=sharing)
 GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0] | 78.34% | [model](https://drive.google.com/file/d/1NU5ypyioIIpqCFBLT_87eT-_7K-gYzzS/view?usp=sharing)
 GF-CSL | ResNet152 | ✓ | 1024×1024 | [0.5, 1.0] | 78.12% | [model](https://drive.google.com/file/d/1GgHAI57HFkhw_an3ONGt9Syttfrjg683/view?usp=sharing)
 GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0, 1.5] | 79.94% | [model](https://drive.google.com/file/d/1eAz5l-M4IqycL9mW2zegwN6wzVMIdJgM/view?usp=sharing)
