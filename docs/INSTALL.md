@@ -69,8 +69,9 @@ GF-CSL
 
 for each annotation file (.txt), each line represent an object following:
 
-x1, y1, x2, y2, x3, y3, x4, y4, class，difficult
+x1, y1, x2, y2, x3, y3, x4, y4, class, difficult
 
+```
 e.g.:
 2753 2408 2861 2385 2888 2468 2805 2502 plane 0
 3445 3391 3484 3409 3478 3422 3437 3402 large-vehicle 0
@@ -81,3 +82,4 @@ e.g.:
 717 76 726 78 722 95 714 90 small-vehicle 0
 737 82 744 84 739 101 731 98 small-vehicle 0
 ...
+```
