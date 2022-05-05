@@ -38,7 +38,7 @@ python setup.py build_ext --inplace
 #### DATASETS PREPARATION
 For DOTA datasets, please refer [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) to crop the original images into patches. e.g. 1024×1024 pixels.
 
-Please organize the datasets in the following format. Please note that the test set of DOTA does not provide annotations, so you can place the corresponding empty files in the test_split/labelTxt path.
+Please organize the datasets in the following format. Note that the test set of DOTA does not provide annotations, so you can place the corresponding empty files in the test_split/labelTxt path.
  
 ```
 GF-CSL
