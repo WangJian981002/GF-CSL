@@ -31,6 +31,9 @@ python evaluate.py --operation test \
     --model 50 --weight_path ./checkpoint/r50-scale=[0.5.1.0].pth \
     --test_size 4000 --output_id 0
 ```
+
+Note that the testing process may be slower due to our testing on a single GPU at larger resolutions.
+
 The results files will appear at "./result/test0/test0_final", which can be subsequently sent to the [DOTA server](http://bed4rs.net:8001/login/) to obtain the evaluation results.
 
 ### Multiscale scale testing
