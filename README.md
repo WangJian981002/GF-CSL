@@ -32,3 +32,14 @@ UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
 
 
 ## Citation
+'''
+@ARTICLE{9776580,
+  author={Wang, Jian and Li, Fan and Bi, Haixia},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Gaussian Focal Loss: Learning Distribution Polarized Angle Prediction for Rotated Object Detection in Aerial Images}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2022.3175520}}
+'''
