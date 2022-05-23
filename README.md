@@ -29,6 +29,9 @@ HRSC2016 | ResNet101 | ✓ | 800×800 | 90.53% | 97.90% |
 UCAS-AOD | ResNet50 | ✓ | 640×640 | 89.61% | 96.42% |
 UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
 -->
+## Results visualization
+Predicted angular distribution
+![6fbfaeccde7c1ac2d1020b511b70bdf](https://user-images.githubusercontent.com/56680663/169776865-0e616e4c-c1b2-4659-abce-bc81229ac60b.png)
 
 
 ## Citation
