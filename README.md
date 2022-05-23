@@ -32,7 +32,7 @@ UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
 
 
 ## Citation
-'''
+```
 @ARTICLE{9776580,
   author={Wang, Jian and Li, Fan and Bi, Haixia},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -42,4 +42,4 @@ UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
   number={},
   pages={1-1},
   doi={10.1109/TGRS.2022.3175520}}
-'''
+```
