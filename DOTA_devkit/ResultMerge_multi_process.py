@@ -21,7 +21,7 @@ from multiprocessing import Pool
 from functools import partial
 
 ## the thresh for nms when merge image
-nms_thresh = 0.1
+nms_thresh = 0.3
 
 def py_cpu_nms_poly(dets, thresh):
     scores = dets[:, 8]
