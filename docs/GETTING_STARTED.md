@@ -20,4 +20,7 @@ Optional arguments:
 
 The visualization file appears in the current path as demo.jpg.
 
+## Test
+The following describes how to generate test results for uploading to the DOTA server, which contains 15 txt files (v1.0), each of which is all the test results for each category.
+
 updating...
