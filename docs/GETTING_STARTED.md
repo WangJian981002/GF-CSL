@@ -8,6 +8,11 @@ CUDA_VISIBLE_DEVICES=0,1 python train_dota.py --datadir ./DOTA_devkit/datasets/t
 ```
 
 ## Visualize
-
+For example, using pretrained ResNet50 model:
+```
+python evaluate.py --operation visualize \
+    --model 50 --weight_path ./checkpoint/r50-scale=[0.5.1.0].pth \
+    --img_path .\result\P0007.png
+```
 
 The visualization file appears in the current path as demo.jpg.
