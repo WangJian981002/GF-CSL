@@ -12,7 +12,7 @@ For example, using pretrained ResNet50 model:
 ```
 python evaluate.py --operation visualize \
     --model 50 --weight_path ./checkpoint/r50-scale=[0.5.1.0].pth \
-    --img_path .\result\P0007.png
+    --img_path ./result/P0007.png
 ```
 
 Optional arguments:
