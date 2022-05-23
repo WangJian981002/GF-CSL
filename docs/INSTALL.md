@@ -39,6 +39,8 @@ python setup.py build_ext --inplace
 For DOTA datasets, please refer [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) to crop the original images into patches. e.g. 1024×1024 pixels.
 
 Please organize the datasets in the following format. Note that the test set of DOTA does not provide annotations, so you can place the corresponding empty files in the test_split/labelTxt path.
+
+As described in the paper, we use a relatively large image resolution during the test, please crop the test image into a 4000×4000 px with overlap 2000 px.
  
 ```
 GF-CSL
