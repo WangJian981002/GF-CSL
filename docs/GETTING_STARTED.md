@@ -15,4 +15,7 @@ python evaluate.py --operation visualize \
     --img_path .\result\P0007.png
 ```
 
+Optional arguments:
+* --score_thr :object confidence during detection. score greater than the confidence is considered to be a detected object.
+
 The visualization file appears in the current path as demo.jpg.
