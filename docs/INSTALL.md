@@ -47,10 +47,13 @@ GF-CSL
 ├── DOTA_devkit
 │   ├── datasets
 │   │   ├── DOTA
-│   │   │   ├── trainval_split
+│   │   │   ├── trainvalsplit-1024-256
 │   │   │   │   ├── images
 │   │   │   │   ├── labelTxt
-│   │   │   │── test_split
+│   │   │   ├── trainvalsplit-multiscale
+│   │   │   │   ├── images
+│   │   │   │   ├── labelTxt
+│   │   │   │── test4000
 │   │   │   │   ├── images
 │   │   │   │   ├── labelTxt
 │   │   │── HRSC2016
