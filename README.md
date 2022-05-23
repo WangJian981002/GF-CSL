@@ -7,7 +7,7 @@ With the increasing availability of aerial data, object detection in aerial imag
 Please refer to [install.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/INSTALL.md) for installation and dataset preparation.
 
 ## Getting Started
-Updating...
+Please see [getting_started.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/INSTALL.md) for the basic usage of GF-CSL.
 
 ## Model Zoo
 * Pretrained weights on DOTA
