@@ -19,6 +19,7 @@ GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0] | 78.34% | [model](https://dr
 GF-CSL | ResNet152 | ✓ | 1024×1024 | [0.5, 1.0] | 78.12% | [model](https://drive.google.com/file/d/1GgHAI57HFkhw_an3ONGt9Syttfrjg683/view?usp=sharing)
 GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0, 1.5] | 79.94% | [model](https://drive.google.com/file/d/1eAz5l-M4IqycL9mW2zegwN6wzVMIdJgM/view?usp=sharing)
 
+<!---
 * Pretrained weights on HRSC2016 and UCAS-AOD
 
 Dataset | Backbone | MS | Training size | mAP07 | mAP12 | Download 
@@ -27,5 +28,7 @@ HRSC2016 | ResNet50 | ✓ | 640×640 | 90.33% | 97.38% |
 HRSC2016 | ResNet101 | ✓ | 800×800 | 90.53% | 97.90% |
 UCAS-AOD | ResNet50 | ✓ | 640×640 | 89.61% | 96.42% |
 UCAS-AOD | ResNet101 | ✓ | 800×800 | 89.51% | 96.51% |
+-->
+
 
 ## Citation
