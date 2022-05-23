@@ -8,3 +8,6 @@ CUDA_VISIBLE_DEVICES=0,1 python train_dota.py --datadir ./DOTA_devkit/datasets/t
 ```
 
 ## Visualize
+
+
+The visualization file appears in the current path as demo.jpg.
