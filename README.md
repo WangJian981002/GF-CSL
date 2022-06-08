@@ -105,7 +105,7 @@ The repository is still under maintenance. If there are any bugs in use, please 
 	</tr>
 </table>
 
-Note that the performance on HRSC2016 is a little bit higher than paper, as we use angle-branch warm up technique during training. (details see Getting Started) 
+Note that the performance on HRSC2016 is a little bit higher than paper, as we add angle-branch warm up technique during training. (details see Getting Started) 
 
 <!---
 Model | Backbone | MS | Training size | Training scales | mAP | Download 
