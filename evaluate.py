@@ -32,8 +32,8 @@ parser.add_argument("--output_id", type=int, default=0)
 parser.add_argument('--img_path', default='./result/P0007.png')
 #hrsc
 parser.add_argument("--hrsc_test_size", type=int, default=640)
-parser.add_argument("--hrsc_test_image_dir", type=str, default='../DOTA/datasets/HRSC2016/Test/images')
-parser.add_argument("--hrsc_test_annopath", type=str, default='../DOTA/datasets/HRSC2016/Test/labelTxt/{:s}.txt')
+parser.add_argument("--hrsc_test_image_dir", type=str, default='./DOTA_devkit/datasets/HRSC2016/test/images')
+parser.add_argument("--hrsc_test_annopath", type=str, default='./DOTA_devkit/datasets/HRSC2016/test/labelTxt/{:s}.txt')
 parser.add_argument("--use_07_metric", action='store_true')
 
 args = parser.parse_args()
