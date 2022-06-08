@@ -12,7 +12,7 @@ Please see [getting_started.md](https://github.com/WangJian981002/GF-CSL/blob/ma
 ## ChangeLog
 The repository is still under maintenance. If there are any bugs in use, please update the corresponding code according to the current version first. If the issue is still not resolved, please feel free to leave a comment, we will reply as soon as possible.
 
-* 2022.06.08 :upload training and evaluation code on HRSC2016. (details see Getting Started)
+* 2022.06.08 :upload training and evaluation code and pretrained weight on HRSC2016. (details see Getting Started)
 
 ## Model Zoo
 * Pretrained weights on DOTA
