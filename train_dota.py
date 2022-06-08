@@ -17,6 +17,7 @@ import yaml
 import collections
 import argparse
 import sys
+sys.path.append('DOTA_devkit')
 from tqdm import tqdm
 
 import torch.distributed as dist
@@ -25,7 +26,7 @@ import torch.multiprocessing as mp
 
 
 from nets.resnet_dcn_DFPN_model import ResNet
-from DotaDataset import DotaSetv1,collater
+from datasets.DotaDataset import DotaSetv1,collater
 
 
 
