@@ -10,9 +10,9 @@ Please refer to [install.md](https://github.com/WangJian981002/GF-CSL/blob/main/
 Please see [getting_started.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/GETTING_STARTED.md) for the basic usage of GF-CSL.
 
 ## ChangeLog
-* 2022.06.08 :upload training and evaluation code on HRSC2016. (details see Getting Started)
+The repository is still under maintenance. If there are any bugs in use, please update the corresponding code according to the current version first. If the issue is still not resolved, please feel free to leave a comment, we will reply as soon as possible.
 
-The code is still being updated ...
+* 2022.06.08 :upload training and evaluation code on HRSC2016. (details see Getting Started)
 
 ## Model Zoo
 * Pretrained weights on DOTA
