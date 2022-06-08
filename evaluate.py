@@ -14,7 +14,7 @@ import torch
 import torch.backends.cudnn as cudnn
 from nets.resnet_dcn_DFPN_model import ResNet
 from utils.utils import decode_per_img
-from DotaDataset import DotaSetv1
+from datasets.DotaDataset import DotaSetv1
 
 parser = argparse.ArgumentParser()
 
