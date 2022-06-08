@@ -17,6 +17,71 @@ The repository is still under maintenance. If there are any bugs in use, please 
 ## Model Zoo
 * Pretrained weights on DOTA
 
+<table>
+	<tr>
+	    <th>Model</th>
+	    <th>Backbone</th>
+	    <th>MS</th>  
+      <th>Training size</th>
+      <th>Training scales</th>
+      <th>mAP</th>
+      <th>Download</th>
+	</tr >
+	<tr >
+	    <td rowspan="2">GF-CSL</td>
+	    <td rowspan="2">ResNet50</td>
+	    <td>×</td>
+      <td rowspan="2">1024×1024</td>
+      <td rowspan="2">[0.5,1.0]</td>
+      <td>75.61%</td>
+      <td rowspan="2">https://drive.google.com/file/d/17Z-0i-ifP_fY58CfoBr8LGBsfLLklm1l/view?usp=sharing</td>
+	</tr>
+	<tr>
+	    <td>✓</td>
+      <td>77.54%</td>
+	</tr>
+  <tr >
+	    <td rowspan="2">GF-CSL</td>
+	    <td rowspan="2">ResNet101</td>
+	    <td>×</td>
+      <td rowspan="2">1024×1024</td>
+      <td rowspan="2">[0.5,1.0]</td>
+      <td>75.52%</td>
+      <td rowspan="2">https://drive.google.com/file/d/1NU5ypyioIIpqCFBLT_87eT-_7K-gYzzS/view?usp=sharing</td>
+	</tr>
+	<tr>
+	    <td>✓</td>
+      <td>78.34%</td>
+	</tr>
+  <tr >
+	    <td rowspan="2">GF-CSL</td>
+	    <td rowspan="2">ResNet152</td>
+	    <td>×</td>
+      <td rowspan="2">1024×1024</td>
+      <td rowspan="2">[0.5,1.0]</td>
+      <td>76.35%</td>
+      <td rowspan="2">https://drive.google.com/file/d/1GgHAI57HFkhw_an3ONGt9Syttfrjg683/view?usp=sharing</td>
+	</tr>
+	<tr>
+	    <td>✓</td>
+      <td>78.12%</td>
+	</tr>
+  <tr >
+	    <td rowspan="2">GF-CSL</td>
+	    <td rowspan="2">ResNet101</td>
+	    <td>×</td>
+      <td rowspan="2">1024×1024</td>
+      <td rowspan="2">[0.5,1.0,1.5]</td>
+      <td>76.05%</td>
+      <td rowspan="2">https://drive.google.com/file/d/1eAz5l-M4IqycL9mW2zegwN6wzVMIdJgM/view?usp=sharing</td>
+	</tr>
+	<tr>
+	    <td>✓</td>
+      <td>79.94%</td>
+	</tr>
+</table>
+
+<!---
 Model | Backbone | MS | Training size | Training scales | mAP | Download 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 GF-CSL | ResNet50 | ✓ | 1024×1024 | [0.5, 1.0] | 77.54% | [model](https://drive.google.com/file/d/17Z-0i-ifP_fY58CfoBr8LGBsfLLklm1l/view?usp=sharing)
@@ -24,7 +89,7 @@ GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0] | 78.34% | [model](https://dr
 GF-CSL | ResNet152 | ✓ | 1024×1024 | [0.5, 1.0] | 78.12% | [model](https://drive.google.com/file/d/1GgHAI57HFkhw_an3ONGt9Syttfrjg683/view?usp=sharing)
 GF-CSL | ResNet101 | ✓ | 1024×1024 | [0.5, 1.0, 1.5] | 79.94% | [model](https://drive.google.com/file/d/1eAz5l-M4IqycL9mW2zegwN6wzVMIdJgM/view?usp=sharing)
 
-<!---
+
 * Pretrained weights on HRSC2016 and UCAS-AOD
 
 Dataset | Backbone | MS | Training size | mAP07 | mAP12 | Download 
