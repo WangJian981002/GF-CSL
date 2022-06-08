@@ -5,6 +5,7 @@ With the increasing availability of aerial data, object detection in aerial imag
 
 ## ChangeLog
 * 2022.06.08 :upload Training code on HRSC2016
+The code is still being updated ...
 
 ## Installation
 Please refer to [install.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/INSTALL.md) for installation and dataset preparation.
