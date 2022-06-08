@@ -21,7 +21,7 @@ The repository is still under maintenance. If there are any bugs in use, please 
 	<tr>
 	    <th>Model</th>
 	    <th>Backbone</th>
-	    <th>MS</th>  
+	    <th>MS Test</th>  
       <th>Training size</th>
       <th>Training scales</th>
       <th>mAP</th>
@@ -78,6 +78,30 @@ The repository is still under maintenance. If there are any bugs in use, please 
 	<tr>
 	    <td>✓</td>
       <td>79.94%</td>
+	</tr>
+</table>
+
+* Pretrained weights on HRSC2016
+<table>
+	<tr>
+	    <th>Model</th>
+	    <th>Backbone</th>
+	    <th>MS Test</th>  
+      <th>Training size</th>
+      <th>mAP12</th>
+      <th>Download</th>
+	</tr >
+	<tr >
+	    <td rowspan="2">GF-CSL</td>
+	    <td rowspan="2">ResNet50</td>
+	    <td>×</td>
+      <td rowspan="2">640</td>
+      <td>97.00%</td>
+      <td rowspan="2">https://drive.google.com/file/d/1Nzwp7OHFn2LHVMyQnd11D2i7fe_0ASP4/view?usp=sharing</td>
+	</tr>
+	<tr>
+	    <td>✓</td>
+      <td>97.94%</td>
 	</tr>
 </table>
 
