@@ -1,5 +1,6 @@
 from __future__ import print_function, division
 import sys
+sys.path.append('DOTA_devkit')
 import os
 import random
 import math
