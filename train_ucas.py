@@ -78,9 +78,9 @@ def main():
 
     """随机数种子"""
     random.seed(args.seed)
-    #np.random.seed(args.seed)#yolov5 mosaic 不要固定np的随机数种子
-    torch.manual_seed(args.seed)# 为CPU设置种子用于生成随机数，以使得结果是确定的
-    torch.cuda.manual_seed(args.seed)  # 为当前GPU设置随机种子；
+    #np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)  
     torch.cuda.manual_seed_all(args.seed)
     cudnn.deterministic = True
 
@@ -95,9 +95,9 @@ def main_worker(gpu, ngpus_per_node, args):
 
     #torch.multiprocessing.set_sharing_strategy('file_system')
     random.seed(args.seed)
-    np.random.seed(args.seed+gpu)#for yolov5-mosaic
-    torch.manual_seed(args.seed)  # 为CPU设置种子用于生成随机数，以使得结果是确定的
-    torch.cuda.manual_seed(args.seed)  # 为当前GPU设置随机种子；
+    np.random.seed(args.seed+gpu)
+    torch.manual_seed(args.seed)  
+    torch.cuda.manual_seed(args.seed)  
     torch.cuda.manual_seed_all(args.seed)
     cudnn.deterministic = True
 
