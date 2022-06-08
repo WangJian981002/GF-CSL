@@ -95,7 +95,7 @@ The repository is still under maintenance. If there are any bugs in use, please 
 	    <td rowspan="2">GF-CSL</td>
 	    <td rowspan="2">ResNet50</td>
 	    <td>×</td>
-      <td rowspan="2">640</td>
+      <td rowspan="2">640×640</td>
       <td>97.00%</td>
       <td rowspan="2">https://drive.google.com/file/d/1Nzwp7OHFn2LHVMyQnd11D2i7fe_0ASP4/view?usp=sharing</td>
 	</tr>
@@ -104,6 +104,8 @@ The repository is still under maintenance. If there are any bugs in use, please 
       <td>97.94%</td>
 	</tr>
 </table>
+
+Note that the performance on HRSC2016 is a little bit higher than paper, as we use angle-branch warm up technique during training. (details see Getting Started) 
 
 <!---
 Model | Backbone | MS | Training size | Training scales | mAP | Download 
