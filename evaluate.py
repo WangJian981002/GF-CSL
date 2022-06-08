@@ -486,7 +486,7 @@ def multiscale_test(id_path_dict,in_list,out_dir):
     for id in id_path_dict.keys():
         out_file = open(os.path.join(out_dir, id+'.txt'),'w')
         for result in in_list:
-            path = os.path.join("./result", result, result.split('-')[0]+'_ori', id+'.txt')
+            path = os.path.join("./result", result.split('-')[0], result.split('-')[0]+'_ori', id+'.txt')
             with open(path,'r') as f:
                 data = f.readlines()
             for line in data:
