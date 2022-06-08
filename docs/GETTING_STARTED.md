@@ -36,7 +36,7 @@ The test images are cropped into 4000×4000 pixels, therefore, the resolution of
 
 For example:
 ```
-python evaluate.py --operation test \
+python evaluate.py --operation DOTA_test \
     --model 50 --weight_path ./checkpoint/r50-scale=[0.5.1.0].pth \
     --test_size 4000 --output_id 0
 ```
@@ -48,7 +48,7 @@ The results files will appear at "./result/test0/test0_final", which can be subs
 ### Multiscale scale testing
 Take ResNet50 for example:
 ```
-python evaluate.py --operation MS_test \
+python evaluate.py --operation DOTA_MS_test \
     --model 50 --weight_path ./checkpoint/r50-scale=[0.5.1.0].pth \
     --test_image_dir ./DOTA_devkit/datasets/DOTA/test4000/images
 ```
