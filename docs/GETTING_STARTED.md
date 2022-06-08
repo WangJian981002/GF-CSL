@@ -29,7 +29,7 @@ Optional arguments:
 
 The visualization file appears in the current path as demo.jpg.
 
-## Test
+## Test on DOTA
 The following describes how to generate test results for uploading to the DOTA server, which contains 15 txt files (v1.0), each of which is all the test results for each category.
 ### Single scale testing
 The test images are cropped into 4000×4000 pixels, therefore, the resolution of the images sent to the network is 4000 by default. If the `--test_size` parameter is specified, the image will be scaled to that size for testing. (Note that the `--test_size` must be divisible by 32 due to the FPN structure built inside the network.)
@@ -56,5 +56,14 @@ The results files will appear at "./result/test/test_final"
 
 The default multiscale image sizes include [2016, 2528, 3008, 3520, 4000, 4512, 5024, 5504, 6016] by default. The above resolutions are 0.5-1.5 times the size of the original test image. 
 
-### More
+## Test on HRSC2016
+single scale test for example:
+```
+python evaluate.py --operation HRSC_test \
+    --model 50 --weight_path ${WEIGHT_PATH} \
+    --hrsc_test_size 640 
+```
+`--hrsc_test_size ` specifies the long side resolution of images during testing, which must be divisible by 32.
+
+## More
 The repository is still being updated. If you have any questions about the usage, we will reply as soon as possible.
