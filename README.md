@@ -10,7 +10,7 @@ Please refer to [install.md](https://github.com/WangJian981002/GF-CSL/blob/main/
 Please see [getting_started.md](https://github.com/WangJian981002/GF-CSL/blob/main/docs/GETTING_STARTED.md) for the basic usage of GF-CSL.
 
 ## ChangeLog
-* 2022.06.08 :upload Training code on HRSC2016
+* 2022.06.08 :upload training and evaluation code on HRSC2016. (details see Getting Started)
 
 The code is still being updated ...
 
