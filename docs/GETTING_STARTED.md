@@ -65,5 +65,3 @@ python evaluate.py --operation HRSC_test \
 ```
 `--hrsc_test_size ` specifies the long side resolution of images during testing, which must be divisible by 32.
 
-## More
-The repository is still being updated. If you have any questions about the usage, we will reply as soon as possible.
