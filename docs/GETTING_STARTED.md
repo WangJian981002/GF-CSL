@@ -10,9 +10,9 @@ CUDA_VISIBLE_DEVICES=0,1 python train_dota.py --datadir ./DOTA_devkit/datasets/D
 For example, using 2 GPUs to training a ResNet50 model:
 ```
 #HRSC2016
-CUDA_VISIBLE_DEVICES=0,1 python train_hrsc.py --datadir ./DOTA_devkit/datasets/HRSC2016/train --model 50 
+CUDA_VISIBLE_DEVICES=0,1 python train_hrsc.py --datadir ./DOTA_devkit/datasets/HRSC2016/train --model 50 --input_size 640
 #UCAS-AOD
-CUDA_VISIBLE_DEVICES=0,1 python train_ucas.py --datadir ./DOTA_devkit/datasets/UCAS_AOD/train --model 50 
+CUDA_VISIBLE_DEVICES=0,1 python train_ucas.py --datadir ./DOTA_devkit/datasets/UCAS_AOD/train --model 50 --input_size 640
 ```
 NOTE: For training the HRSC2016 and UCAS-AOD datasets: To make the angle prediction branch converge faster, we train only the angle branch for the first 10 epochs, which is achieved by resetting the other task loss weights to 0. After 10 epochs the training process returned to normal.
 
