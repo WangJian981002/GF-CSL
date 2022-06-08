@@ -6,6 +6,12 @@ For example, using 2 GPUs to training a ResNet50 model:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train_dota.py --datadir ./DOTA_devkit/datasets/trainvalsplit-1024-256 --model 50 
 ```
+### Train on HRSC2016 and UCAS-AOD datasets 
+For example, using 2 GPUs to training a ResNet50 model:
+```
+#HRSC2016
+CUDA_VISIBLE_DEVICES=0,1 python train_hrsc.py --datadir ./DOTA_devkit/datasets/trainvalsplit-1024-256 --model 50 
+```
 
 ## Visualize
 For example, using pretrained ResNet50 model:
