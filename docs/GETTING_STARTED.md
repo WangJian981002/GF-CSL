@@ -65,3 +65,11 @@ python evaluate.py --operation HRSC_test \
 ```
 `--hrsc_test_size ` specifies the long side resolution of images during testing, which must be divisible by 32.
 
+`--use_07_metric ` action='store_true' whether use VOC07 metric.
+
+multi scale test for example:
+```
+python evaluate.py --operation HRSC_MS_test \
+    --model 50 --weight_path ${WEIGHT_PATH} 
+```
+The default long side resolutions are 512, 544, 576, 608, 640.
